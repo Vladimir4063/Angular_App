@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  addLink(title:string, link:string ) {
+  addLink(title, link ) {
     console.log('values: ', title.value, link.value);
     return false;
   }
